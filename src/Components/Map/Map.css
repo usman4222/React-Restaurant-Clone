@@ -1,0 +1,108 @@
+.map-box {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 20px;
+    padding: 40px 20px;
+}
+
+.map-row {
+    padding: 60px 0;
+}
+
+.fullmap {
+    border-radius: 20px;
+    height: 99%;
+    overflow: hidden;
+}
+
+.map-content {
+    padding: 0 40px;
+}
+
+.map-content h2 {
+    line-height: 58px;
+    font-size: 42px;
+    margin: 0;
+    color: #363636;
+    font-weight: bold;
+    text-transform: capitalize;
+    padding: 30px 0;
+    font-family: 'Montserrat';
+}
+
+.map-content p {
+    font-size: 16px;
+    line-height: 26px;
+    padding-bottom: 10px;
+    color: #787878;
+    font-family: 'Montserrat';
+}
+
+.inputs input[type="text"] {
+    color: #cfcfcf;
+    border: 1px solid #F2F2F2;
+    width: 100%;
+    height: 60px;
+    padding-left: 46px;
+    border-radius: 10px;
+    margin-top: 20px;
+    outline: none;
+    font-size: 16px;
+    font-family: 'Montserrat';
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+
+.inputs textarea[type="text"] {
+    color: #cfcfcf;
+    border: 1px solid #F2F2F2;
+    width: 100%;
+    height: 60px;
+    padding-left: 46px;
+    height: 100px;
+    padding-top: 10px;
+    border-radius: 10px;
+    margin-top: 20px;
+    outline: none;
+    font-size: 16px;
+    font-family: 'Montserrat';
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+
+.map-btn button {
+    text-align: center;
+    color: #787878;
+    border: 2px solid #F29F05;
+    background-image: linear-gradient(45deg, #F29F05 50%, transparent 50%);
+    background-size: 200% 100%;
+    background-position: 100% 0;
+    transition: 300ms ease-in-out, color 300ms ease-in-out;
+    line-height: 51px;
+    text-transform: uppercase;
+    display: inline-block;
+    font-size: 16px;
+    width: 100%;
+    border-radius: 10px;
+    height: 50px;
+    line-height: 55px;
+    text-decoration: none;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Montserrat';
+
+}
+
+.map-btn {
+    padding-top: 20px;
+}
+
+.map-btn button:hover {
+    background-position: 0 100%;
+    color: #fff;
+}
+
+@media screen and (max-width: 768px) {
+    .map-b2 {
+        padding-top: 70px;
+    }
+}

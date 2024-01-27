@@ -1,0 +1,107 @@
+.main1{
+    background-image: url('../../assests//img1.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+.main1-r1-b1{
+    display: flex;
+    align-items: center;
+}
+.main1-r1-b2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.b2-content img{
+    width: 100%;
+    position: relative;
+}
+.b2-content img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    animation: tiltAnimation 1s ease-in-out 1s infinite;
+    animation-fill-mode: both;
+  }
+  
+  @keyframes tiltAnimation {
+    0% {
+      transform: rotate(0deg);
+    }
+    50% {
+      transform: rotate(3deg);
+    }
+    100% {
+      transform: rotate(0deg);
+    }
+  }
+  
+.b1-heading h1{
+    font-size: 60px;
+    line-height: 80px;
+    color: #363636;
+    font-weight: bold;
+    text-transform: capitalize;
+    font-family: 'Montserrat';
+}
+.b1-heading p {
+    font-size: 16px;
+    line-height: 26px;
+    margin: 0;
+    color: #787878;
+    font-family: 'Montserrat';
+}
+.wilmington.location-restaurant {
+    top: 28%;
+    right: 9%;
+    width: 18%;
+    display: flex;
+    align-items: center;
+}
+.wilmington {
+    background-color: white;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    border-radius: 20px;
+    position: absolute;
+}
+.wilmington.location-restaurant i{
+    font-size: 18px;
+    background-color: #f29f05;
+    color: white;
+    border-radius: 33px;
+    height: 40px;
+    width: 40px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin-right: 13px;
+    padding: 0;
+}
+.wilmington h6 {
+    font-size: 18px;
+    line-height: 14px;
+    font-weight: bold;
+    color: #363636;
+}
+.wilmington.location-restaurant p {
+    line-height: 5px;
+}
+
+.wilmington p {
+    font-size: 12px;
+    color: #787878;
+}
+@media screen and (max-width: 768px) {
+    .main1-r1-b1{
+        padding: 70px 0;
+    }
+    .main1-r1-b2{
+        padding-bottom: 70px;
+    }
+    .b1-heading h1{
+        font-size: 45px;
+    }
+}

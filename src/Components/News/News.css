@@ -1,0 +1,74 @@
+.news {
+    background-image: url('../../assests/img5.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+
+.news-r1 {
+    padding: 30px 0;
+}
+
+.news-b1 {
+    padding: 0 30px;
+}
+
+.news-b1 img {
+    width: 100%;
+}
+
+.news-content h2 {
+    line-height: 58px;
+    font-size: 48px;
+    margin: 0;
+    color: #363636;
+    font-weight: bold;
+    text-transform: capitalize;
+    padding: 30px 0;
+    font-family: 'Montserrat';
+}
+
+.news-content p {
+    font-size: 16px;
+    line-height: 26px;
+    padding-bottom: 10px;
+    color: #787878;
+    font-family: 'Montserrat';
+}
+
+.button-2 {
+    text-align: center;
+    color: #000;
+    border: 2px solid #F29F05;
+    background-image: linear-gradient(45deg, #F29F05 50%, transparent 50%);
+    background-size: 200% 100%;
+    background-position: 100% 0;
+    transition: 300ms ease-in-out, color 300ms ease-in-out;
+    line-height: 51px;
+    text-transform: uppercase;
+    display: inline-block;
+    font-size: 16px;
+    padding: 0 25px;
+    border-radius: 10px;
+    height: 55px;
+    line-height: 55px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.button-2:hover {
+    background-position: 0 100%;
+    color: #fff;
+}
+
+@media screen and (max-width: 768px) {
+    .news-b1 {
+        padding: 40px 0;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .news-b1 {
+        padding: 20px 0;
+    }
+}
